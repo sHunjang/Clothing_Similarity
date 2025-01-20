@@ -16,4 +16,5 @@ result = model.train(
     optimizer='AdamW',
     project='Train_Result',
     device='mps',
+    imgsz='224',
 )

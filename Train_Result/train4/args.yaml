@@ -13,7 +13,7 @@ cache: false
 device: mps
 workers: 8
 project: Train_Result
-name: train4
+name: train5
 exist_ok: false
 pretrained: true
 optimizer: AdamW
@@ -103,4 +103,4 @@ erasing: 0.4
 crop_fraction: 1.0
 cfg: null
 tracker: botsort.yaml
-save_dir: Train_Result/train4
+save_dir: Train_Result/train5

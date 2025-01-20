@@ -1,7 +1,7 @@
 from ultralytics import YOLO
 
 # Load Pretrained Model
-Pretrained_Model = YOLO('Train_Result/train6/weights/best.pt')
+Pretrained_Model = YOLO('Train_Result/train7/weights/best.pt')
 
 # Test Clothing Image Path
 Predict_Images_Path = 'test_set'
